@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvRoll"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+    <ImageView
+        android:id="@+id/dice_Image"
+        android:layout_width="323dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="32dp"
         android:padding="24dp"
-        android:text="@string/_1"
-        android:textSize="24sp"
+        android:src="@drawable/dice_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text = "@string/roll"
-        app:layout_constraintTop_toBottomOf = "@id/tvRoll"
+        app:layout_constraintTop_toBottomOf = "@id/dice_Image"
         app:layout_constraintStart_toStartOf = "parent"
         app:layout_constraintEnd_toEndOf = "parent"/>
 
